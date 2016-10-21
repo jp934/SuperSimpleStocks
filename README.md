@@ -34,13 +34,13 @@ ALE           | Common    | 23 |    | 60
 GIN           | Preferred | 8  | 2% | 100
 JOE           | Common    | 13 |    | 250
 
-### Prerequisites
+### Prerequisites
 
 *  Java version 1.7
 *  Spring Framework Boot 1.4.1.RELEASE
 *  IntelliJ version 15.0 (Preferred)
 
-### Technical Design and Solution
+### Technical Design and Solution
 
 To design the technical solution for Super Simple Stocks application, we have taken the service oriented architecture approach which provide the ability to focus on separation of concerns and reusability.
 
