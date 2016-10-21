@@ -36,9 +36,9 @@ JOE           | Common    | 13 |    | 250
 
 ### Prerequisites
 
-Java version 1.7
-Spring Framework Boot 1.4.1.RELEASE
-IntelliJ version 15.0 (Preferred)
+*  Java version 1.7
+*  Spring Framework Boot 1.4.1.RELEASE
+*  IntelliJ version 15.0 (Preferred)
 
 ### Technical Design and Solution
 
@@ -50,7 +50,9 @@ The StockService class is a service that satisfy the concrete definition of impl
 
 #### CacheManager 
 
-The CacheManager class manage the data access layer and provide the concrete template definition cache management in the application. To satisfy one of the given application requirements, we have created the _**MemoryCacheManager**_. However, the data can also be persisted in one of the databases using the _**DBCacheManager**_.
+The CacheManager class manage the data access layer and provide the concrete template definition cache management in the application. To satisfy one of the given application requirements, we have created the _**MemoryCacheManager**_. 
+
+However, the data can also be persisted in one of the databases using the _**DBCacheManager**_.
 
 #### StockException
 
@@ -68,6 +70,9 @@ To test the Super Simple Stocks core functionality, we have written some of the 
   testRecordTrade
   testGBCEIndexAllShareIndex
 ```
+To run the test using maven command on console:
+
+    maven test
 
 ### How to use it
 
